@@ -1,3 +1,3 @@
 <!-- docs/_sidebar.md -->
 
-* [My Bad](/)
+* [My Bad](README.md)
