@@ -1,8 +1,12 @@
 ## Linux
 
-### OK:
+1. create a file and write text:
 
-### NOT OK -> OK
+   ```bash
+   cat > sample.txt
+   // text to write
+   // ctrl+D to save and exit.
+   ```
 
-### STILL NOT OK：
+   
 
