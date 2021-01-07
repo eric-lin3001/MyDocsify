@@ -22,3 +22,28 @@ Type Parameters: E - the type of elements returned by this iterator
 public class Collections extends Object
 ```
 
+**Methods:**
+
+1. Collections.copy(des,src); 
+   - The destination list must be at least as long as the source list.
+2. Collections.reverse(list);
+3. Collections.fill(list,"X");
+   - 将list中的每个元素替换为X（假设list的类型为list<String>）.
+
+4. Collections.addAll(des,src);
+
+   - des类型为list，src类型为T... elements，可以是array，但二者子类型必须相同。
+
+   - 二者区别？
+
+     ```java
+     Collections.addAll(list2,a);
+     Arrays.asList(a);
+     ```
+
+5. Collections.frequency(list,element);
+   - returns counts of 'element' in the list
+
+6. Collections.disjoint(list1,list2);
+   - returns true if list1 & list2 has nothing in common.
+   - returns false if list1 & list2 has at least one element in common.
