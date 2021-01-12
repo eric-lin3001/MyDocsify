@@ -26,3 +26,8 @@
 
 - 枚举（enum）类
 - switch case
+
+##### 1.12
+
+###### - ThinkingInJava(149-)
+
