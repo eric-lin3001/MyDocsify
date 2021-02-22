@@ -1,13 +1,11 @@
-1. Airflow dag packages import from:
+1. 启动虚拟环境airflow的webserver和scheduler：
 
    ```bash
-   /usr/local/lib/python3.7/site-packages
-   ```
-
-2. Custom Operator Definition Packages are put here:
-
-   ```bash
-   /usr/local/lib/python3.7/site-packages/airflow/operators
+   cd /Users/linzeyang/Desktop/cec/gitLab/AirflowPyDemo/airflow-test-env/
+   source bin/activate
+   export AIRFLOW_HOME=/Users/linzeyang/Desktop/cec/gitLab/AirflowPyDemo/airflow-test-env/airflow_home
+   airflow webserver -D
+   airflow scheduler -D
    ```
 
 
