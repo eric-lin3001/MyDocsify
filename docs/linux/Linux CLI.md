@@ -71,3 +71,30 @@
 
    ![Screen Shot 2021-01-07 at 09.56.54](/Users/linzeyang/Library/Application Support/typora-user-images/Screen Shot 2021-01-07 at 09.56.54.png)
 
+10. dig命令
+
+- 从 DNS 域名服务器查询主机地址信息：
+
+```bash
+ dig baidu.com
+```
+
+![img](https://images2017.cnblogs.com/blog/952033/201711/952033-20171103133846138-920653866.png)
+
+- 指定DNS服务器查询某域名信息：
+
+```bash
+dig @8.8.8.8 m.linuxidc.com
+```
+
+- 不指定DNS服务器，默认从/etc/resolv.conf文件里的DNS服务器依次查询：
+
+  ![Screen Shot 2021-02-26 at 10.19.34](/Users/linzeyang/Library/Application Support/typora-user-images/Screen Shot 2021-02-26 at 10.19.34.png)
+
+  ```bash
+  // 不指定DNS服务器，默认从211.138.151.161开始，输出从根域到最终结果的所有信息。
+  dig +trace www.baidu.com
+  ```
+
+- ![Screen Shot 2021-02-26 at 10.20.32](/Users/linzeyang/Library/Application Support/typora-user-images/Screen Shot 2021-02-26 at 10.20.32.png)
+

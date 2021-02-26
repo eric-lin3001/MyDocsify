@@ -1,4 +1,12 @@
-#### Basics
+### Docker Basics
+
+
+
+###### Start Docker Daemon?
+
+```bash
+service docker start
+```
 
 ###### How to understand container?
 
@@ -7,9 +15,5 @@
 ###### Refs:
 
 1. https://www.jianshu.com/p/66d611657ed6
+2. https://spring.io/guides/gs/spring-boot-docker/
 
-
-
-问题：
-
-1. 怎么理解docker中image只读，container可写？
