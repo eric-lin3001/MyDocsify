@@ -2,6 +2,10 @@
 
 
 
+- Tomcat本质上是一个servlet容器。
+
+
+
 - 用户在浏览器输入(localhost:8080/a/b)，Tomcat创建servlet，处理业务逻辑，并返回html流程：
 
   1. tomcat先在server.xml下的Context容器下找a目录对应的web服务路径，参考如下：
